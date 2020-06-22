@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # Image and model names
-#TEST_IMG=/home/marek/Code/monmon/semantic-segmentation-pytorch/data/Water/
 TEST_IMG=data/groundwater/Images
-#data/machrie-feb-20.JPG #Data/ADE_val_00001519.jpg
 MODEL_PATH=ade20k-resnet50dilated-ppm_deepsup
 RESULT_PATH=./
 
