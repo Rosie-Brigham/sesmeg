@@ -51,7 +51,7 @@ _C.TRAIN.num_epoch = 20
 # epoch to start training. useful if continue from a checkpoint
 _C.TRAIN.start_epoch = 0
 # iterations of each epoch (irrelevant to batch size)
-_C.TRAIN.epoch_iters = 5000
+_C.TRAIN.epoch_iters = 1000
 
 _C.TRAIN.optim = "SGD"
 _C.TRAIN.lr_encoder = 0.02
