@@ -18,7 +18,7 @@ TRAIN:
   batch_size_per_gpu: 2
   num_epoch: 20
   start_epoch: 0
-  epoch_iters: 5000
+  epoch_iters: 1000
   optim: "SGD"
   lr_encoder: 0.02
   lr_decoder: 0.02
